@@ -1,7 +1,7 @@
 # How to run
 + Set up docker for MySQL
 	+ Start a docker container
-	+ run following commands in same folder `P*` to load sql file:-
+	+ run following commands in same folder `phase4` to load sql file:-
 		+ `mysql -h 127.0.0.1 -u <YOUR_USERNAME> --port=5005 -p < phase4.sql`
 		+ `mysql -h 127.0.0.1 -u <YOUR_USERNAME> --port=5005 -p < data.sql`
 +  For setting up CLI in python by using :-  
@@ -11,7 +11,7 @@
 		+ `python main.py` **or** `python3 main.py`
 
 # Introduction
-This is program for MySQL-CLI with python using PyMySQL which is made for a hotel chain management company as our Data and Application course project. We have tried to cover all fields as we can which are present in a database for Hotel management.
+Created the database for hotel management system and performed queries on the database using MySQL CLI with Python using PyMySQL library.
 
 # Funtions Provided In Program
 ## Add
@@ -57,16 +57,4 @@ Some other functions which we can use :-
 
 *there are some extra function as sub-feature of previous mentioned functions*
 
-### Repititve Tasks
-Due to the repition of a particular format in functions of similar kind; we implemented only some of them just to fulfil this projects needs and extended some function due to increase in deadline :relaxed:
-
-# Creaters
-
-|Archit Jain   | Aaditya Sharma  | Pulkit Gupta |
-|--------------|-----------------|--------------|
-|  2019101053  |    2019113009   |  2019101078|
-+ ======================================================================== 
-+ .            HERE WE MARK THE END OF OUR GROUP PROJECT
-+ ========================================================================
-
-
+*this is a group project created by Pulkit Gupta, Aaditya Sharma and Archit Jain.*
